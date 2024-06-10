@@ -358,8 +358,8 @@ color:#24565c;
 border-radius: 5px;
 }
 
-.package-search{
-  width: 50px; height: 10px;
+ .package-search{
+  width: 50%; height: 10px;
   border:solid black  2px;
   border-radius: 20px;
   display: flex;
@@ -368,6 +368,7 @@ border-radius: 5px;
   padding:20px; margin: auto;
   background-color: white;
   }
+
   .package-search input{
     border: none;
  height: 20px;
@@ -743,7 +744,7 @@ display: block;
     position:absolute;
     top:0; left:0;
     z-index: -1;
-    height:70%;width: 100%; object-fit:cover;
+    height:70%;width: 100%; object-fit:contain;
     }
 
  .package-search{
@@ -760,6 +761,15 @@ display: block;
   box-sizing: border-box;
   }
 
+
+
+  .home .video-container video{
+    position:absolute;
+    top:0; left:0;
+    z-index: -1;
+    height:100%;width: 100%; object-fit:cover;
+    box-sizing: border-box;
+    }
 
   .navbar-link{
     display: none;
