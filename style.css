@@ -241,11 +241,10 @@ font-size: 2rem;
   height:70%;width: 100%; object-fit:cover;
   }
   .home .controls{
-  padding-bottom: 130px;
+  padding-bottom:20px;
   border-radius: 5rem;
-  
   position: relative;
-  top:8px;  margin:auto; text-align: center; width:100%; height:100%;
+  top:8px;  margin:auto; text-align: center; width:100%; height:70%;
   }
   .home .controls .vid-btn{
   width:15px;
@@ -727,6 +726,22 @@ box-shadow: 0 2rem 4rem rgb(18, 1, 18);
     border-radius: 5px;
     }
 
+    .best-packages .box-container .box .bookbtn{
+      /* color: black;
+      font-size: 20px;
+      background-color: aqua;
+      border-radius: 5px;
+      cursor: pointer; */
+      display: inline-block;
+    margin-top: 1rem;
+    background-color: black;
+    font-size: 15px;
+    color: #fff;
+    padding: .8rem 3rem;
+    border: .2rem ;
+    cursor: pointer;
+    }
+
 @media screen and (max-width:600px) {
 
 .navbar-menu-toggle{
@@ -747,6 +762,20 @@ display: block;
     height:70%;width: 100%; object-fit:contain;
     }
 
+ /* .package-search{
+  width: 100%; height: 20px;
+  max-width: 300px;
+  border:solid black  2px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px; 
+  margin: auto;
+  background-color: white;
+  box-sizing: border-box;
+  } */
+
   .package-search {
     width: 100%;
     max-width: 300px;
@@ -762,12 +791,23 @@ display: block;
     overflow: hidden; /* Prevent content overflow */
   }
 
+  /* .home .content h2,.home .content h1,.home .content .home-button,.home .controls{
+    padding-bottom: 20%;
+  } */
+
+  .services{
+    padding-top: 2px;
+  }
+
+  .home .controls{
+    padding-bottom: 30px;
+  }
 
   .home .video-container video{
     position:absolute;
     top:0; left:0;
     z-index: -1;
-    height:100%;width: 100%; object-fit:cover;
+    height:50%;width: 100%; object-fit:cover;
     box-sizing: border-box;
     }
 
