@@ -747,20 +747,20 @@ display: block;
     height:70%;width: 100%; object-fit:contain;
     }
 
- .package-search{
-  width: 100%; height: 20px;
-  max-width: 300px;
-  border:solid black  2px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:10px; 
-  margin: auto;
-  background-color: white;
-  box-sizing: border-box;
+  .package-search {
+    width: 100%;
+    max-width: 300px;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto; /* Centering the element */
+    background-color: white;
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent content overflow */
   }
-
 
 
   .home .video-container video{
