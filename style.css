@@ -48,7 +48,7 @@ cursor: pointer; size-adjust:inherit;font-size:15px; font-weight: bold;
 }
   
 
-.search-bar-container{
+/* .search-bar-container{
 position: absolute;
 top: 100%;left: 0;right: 0;
 padding: 1.5rem 2rem;
@@ -63,14 +63,14 @@ clip-path: polygon(0 0,100% 0, 100% 0,0 0);
 
 .search-bar-container.active{
 clip-path: polygon(0 0,100% 0, 100% 100%,0 100%);
-}
+} */
 
-.navbar a:hover,.icons i:hover,.search-bar-container:hover{
+
+/* .search-bar-container:hover{
 color: crimson; 
+}  */
 
-} 
-
-.search-bar-container #search-bar{
+/* .search-bar-container #search-bar{
 width: 100%;
 padding: 1rem;
 text-transform: none;
@@ -82,7 +82,11 @@ border-radius: .9rem;
 .search-bar-container label{
 font-size: 2rem;
 margin-left: 1.5rem;
-}
+} */
+
+.navbar a:hover,.icons i:hover{
+  color: crimson; 
+  } 
 
 .login-form-container{
 position: fixed;
@@ -192,6 +196,7 @@ margin :10px;
 }
 .side-navbar-links  a{
 margin-bottom: 30px; color:white; text-decoration:none; font-weight: bold; text-transform: uppercase;
+font-size: 15px;
 }
 .side-navbar-links a:hover{
 text-decoration: underline;
@@ -748,19 +753,37 @@ box-shadow: 0 2rem 4rem rgb(18, 1, 18);
 display: block;
 }
 .home .content h2{
-  color:yellow;font-size:25px; padding-top: 10px; padding-bottom: 5px; font-weight: bold;}
+  color:yellow;font-size:15px; padding-top: 10px; padding-bottom: 5px; font-weight: bold
+}
   .home .content h1{
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(27, 80, 226);
   padding-top: 10px; padding-bottom: 8PX; font-weight: bold;
   }
 
-  .home .video-container video{
+  /* .home .video-container video{
     position:absolute;
     top:0; left:0;
     z-index: -1;
     height:70%;width: 100%; object-fit:contain;
-    }
+    } */
+
+    .slideshow .img-container img{
+      position:absolute;
+      top:0; left:0;
+      z-index: -1;
+      height:100%;width: 100%; object-fit:cover;
+      box-sizing: border-box;
+      }
+
+      .packages{
+        padding-top: 25px;
+      }
+    
+      .slideshow .slides{
+        padding-top: 25px;
+        padding-bottom: 5px;
+      }
 
  /* .package-search{
   width: 100%; height: 20px;
@@ -796,7 +819,7 @@ display: block;
   } */
 
   .services{
-    padding-top: 2px;
+    padding-top: 25px;
   }
 
   .home .controls{
@@ -809,6 +832,13 @@ display: block;
     z-index: -1;
     height:50%;width: 100%; object-fit:cover;
     box-sizing: border-box;
+    }
+
+    .slideshow .text h2{
+
+      color:yellow;
+      font-size:20px; padding-top: 30px; padding-bottom: 25px;
+      font-weight: bold;
     }
 
   .navbar-link{
